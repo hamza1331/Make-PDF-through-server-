@@ -9,10 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "blob-stream": "^0.1.3",
     "express": "^4.16.3",
     "express-fileupload": "^1.0.0",
     "formidable": "^1.2.1",
+    "hellosign-sdk": "^1.3.0",
     "jest": "^23.6.0",
-    "pdfkit": "^0.8.3"
+    "pdfkit": "^0.8.3",
+    "pdfmake": "^0.1.39"
   }
 }

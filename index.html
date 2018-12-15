@@ -13,7 +13,13 @@ href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <div class="jumbotron">
             <h1 class="text-center">MY APP</h1>
             <form action="/users" enctype="multipart/form-data" method="POST">
-                <input type="text" name="bioFileName">
+               <label for="">Title</label>  <input type="text" name="title"><br />
+               <label for="">message</label> <input type="text" name="message"><br />
+             <label for="">Subject</label> <input type="text" name="subject"><br />
+               <label for="">Agreement Description</label>  <textarea name="agree"></textarea><br />
+               <label for="">Document name</label> <input type="text" name="bioFileName"><br />
+               <label for="">Signature Req to</label>  <input type="email" name="SignReqto">
+
             <input type="file" name="filestoup" accept="image/*" multiple>
             <button type="submit">SUBMIT</button>
             </form>
